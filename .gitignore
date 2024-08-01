@@ -1,2 +1,7 @@
 bin/
 bing-int/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.log
