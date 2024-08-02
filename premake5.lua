@@ -29,6 +29,11 @@ project "GLAD"
         optimize "On"
         buildoptions "/MT"
     
+    filter "configurations:Testing"
+        runtime "Debug"
+        symbols "On"
+
+
     filter "configurations:Dist"
         runtime "Release"
         optimize "On"
